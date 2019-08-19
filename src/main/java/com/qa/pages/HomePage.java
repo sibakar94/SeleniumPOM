@@ -1,11 +1,15 @@
 package com.qa.pages;
 
+import org.openqa.selenium.WebDriver;
+
 public class HomePage {
-	private int age;
-	
-	public void getAge() {
-		System.out.println("123");
-		//pushing code
-		//pulling example
+
+	WebDriver driver;
+
+    public void setDriver(WebDriver driver) {
+		this.driver = driver;
 	}
+    public String homePageTitle() {
+    	return driver.getTitle();
+    }
 }
