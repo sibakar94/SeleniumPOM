@@ -3,6 +3,8 @@ package com.qa.tests;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
@@ -37,6 +39,9 @@ public class LoginTest {
 			HomePage objHome=new HomePage();
 			objHome.setDriver(driver);
 			System.out.println(objHome.homePageTitle());
+			
+			
+			
 			
 			driver.close();
 		} catch (Exception e) {
