@@ -1,4 +1,4 @@
-package com.qa.pages;
+package com.qa.tests;
 
 import java.util.concurrent.TimeUnit;
 
