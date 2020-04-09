@@ -26,7 +26,7 @@ public class Naukri {
 			Actions action=new Actions(driver);
 			action.moveToElement(element).perform();
 			driver.findElement(By.cssSelector("a[title='Edit Profile']")).click();
-			driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\Siba\\Desktop\\CV\\testing\\siba_testing.docx");//path of cv
+			driver.findElement(By.id("attachCV")).sendKeys("");//path of cv
 			driver.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
