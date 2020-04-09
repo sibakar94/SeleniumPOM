@@ -19,8 +19,8 @@ public class Naukri {
 			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 			driver.get("https://www.naukri.com/nlogin/logout");
-			driver.findElement(By.id("usernameField")).sendKeys("siba2005rta@gmail.com");//change email id
-			driver.findElement(By.id("passwordField")).sendKeys("Siba@4631");//change password
+			driver.findElement(By.id("usernameField")).sendKeys("");//change email id
+			driver.findElement(By.id("passwordField")).sendKeys("");//change password
 			driver.findElement(By.xpath("//button")).click();
 			WebElement element=driver.findElement(By.xpath("//div[@class='mTxt' and text()='My Naukri']"));
 			Actions action=new Actions(driver);
