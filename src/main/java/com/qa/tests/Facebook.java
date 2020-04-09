@@ -17,10 +17,10 @@ public class Facebook {
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-			driver.get("https://www.facebook.com");
-			driver.findElement(By.id("email")).sendKeys("siba2005rta@gmail.com");
+			driver.get("");
+			driver.findElement(By.id("email")).sendKeys("");
 			WebElement password=driver.findElement(By.id("pass"));
-			password.sendKeys("Siba@4631");
+			password.sendKeys("");
 			String pass=password.getAttribute("value");
 			String text=password.getText();
 			System.out.println(pass+text);
