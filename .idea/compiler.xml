@@ -9,8 +9,5 @@
         <module name="SeleniumCucumber" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SeleniumCucumber" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
